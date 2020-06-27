@@ -19,7 +19,7 @@
       "@controllers/*": ["./src/Controllers/*"],
       "@models/*": ["./src/Models/*"],
       "@views/*": ["./src/Views/*"],
-      "@config/*": ["./src/Config/*"]
+      "@configs/*": ["./src/Configs/*"]
     }
   },
   "include": ["src/**/*"]
