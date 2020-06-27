@@ -1,5 +1,6 @@
-import express from "express";
+import 'dotenv/config';
+import express from 'express';
 
 const app = express();
 
-app.listen(3333);
+app.listen(process.env.PORT, () => console.log(process.env.PORT));
